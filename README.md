@@ -1,16 +1,16 @@
-## DET-Steve
+# DET-Steve
 Code base for DET Project 1
 
-# Introduction 
+## Introduction 
 Steve is a Robotic server for a Starbucks that helps you decide what drink to order
 
-# Logic 
+## Logic 
 There are 3 orders of logic in Steve's codebase
   - The individual functions which define (1) the actions and interactions of Steve and his arms and (2) the LCD print out
   - The driver which calls and orders the functions 
   - main () which allows us to complete the logic from driver several times with different LCD input
 
-# Version 
+## Version 
 There are many versions of Steve's code detailed here:
 
 testing_steve_arms was working based on 9.23
@@ -37,7 +37,7 @@ Steve_friday is the most debugged code based on the errors on 9.27
   
  
  
-# Plan 
+## Plan 
 
 to check group's master against most updated steve-friday 
 to check that against steve-motor-lcd for logic 
@@ -46,7 +46,7 @@ continue debugging
   - each major debug will be placed in a new file with the v1 etc next to it and the day it was worked on 
   
   
-# Why Does It Need To Be This Complicated 
+## Why Does It Need To Be This Complicated 
 because I can't debug well on the pi (it's almost 300 lines of code) 
 because git and the pi make things a little difficult so the work flow looks like this 
   1) run a verson on the pi 
